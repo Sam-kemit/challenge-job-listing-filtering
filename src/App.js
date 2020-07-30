@@ -5,7 +5,7 @@ import JobBoardComponent from "./components/JobBoardComponent";
 
 function App() {
   const [jobs, setJobs] = useState([]);
-  const [filters, setFilters] = useState(["CSS"]);
+  const [filters, setFilters] = useState([]);
 
   useEffect(() => {
     setJobs(data);
